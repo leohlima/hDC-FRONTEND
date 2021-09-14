@@ -1,0 +1,434 @@
+/**/
+/*1. RESET E ESTILOS GERAIS*/
+/**/
+/* 2.HEADER*/
+/**/
+/*3. MAIN BANNER*/
+/**/
+/*4. PLANOS*/
+/**/
+/*5. QUALIDADE*/
+/**/
+/*6. DOMINIO*/
+/**/
+/*7. CONTATO*/
+/**/
+/*8. FOOTER*/
+/**/
+/*9. Media Query*/
+/**/
+
+/**/
+/*1. RESET E ESTILOS GERAIS*/
+/**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+a,
+a:visited,
+a:checked,
+a:active {
+    text-decoration: none;
+    list-style: none;
+    color: #FFF;
+    transition: .5;
+}
+
+li {
+    list-style: none;
+}
+
+/**/
+/* 2.HEADER*/
+/**/
+
+header {
+    background-color: #272727;
+}
+
+#header {
+    width: 100%;
+}
+
+.header-c {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+#logo {
+    width: 55px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__itens {
+    margin: 10px;
+}
+
+.nav__list a {
+    transition: .5s;
+}
+
+.nav__list a:hover {
+  color:  rgb(62, 161, 62);
+}
+
+#nav__itens-btn {
+    background-color: rgb(62, 161, 62);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#nav__itens-btn:hover {
+    background-color: #272727;
+}
+
+/**/
+/*3. MAIN BANNER*/
+/**/
+
+.main-banner {
+    background-size: cover;     /*a imagem se adapta ao tamanho da div*/
+    background-position: center;
+    background-image: url('./assets/mainbanner.png');
+    height: 520px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 100px;    
+}
+
+h1 {
+    font-size: 3rem;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #FFF;
+}
+
+/**/
+/*4. PLANOS*/
+/**/
+
+#planos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.titulo-plano .section__title {
+    color: black;
+    text-align: center;
+}
+
+.planos-title p {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.plano__card {
+    width: 200px;
+    margin: 45px;
+}
+
+.box-circle {
+    display: flex;
+    background-color: rgb(62, 161, 62);
+    width: 120px;
+    height: 120px;
+    padding: 30px;
+    border-radius: 100px;
+    justify-content: center;
+    top: -50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-circle p {
+    align-self: center;
+    font-weight: bold;
+}
+
+.box-title {
+    background-color: #272727;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+}
+
+.box-title__title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.box-content {
+    padding: 10px;
+    width: 280px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-content p {
+    margin: 10px;
+}
+
+.plano-btn {
+    background-color: rgb(62, 161, 62);
+    padding: 15px;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    width: 280px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.plano-btn:hover {
+    opacity: .7;
+}
+
+#dedicado-plus .box-circle {
+    background-color: red;
+}
+
+#dedicado-plus .plano-btn {
+    background-color: red;
+}
+
+/**/
+/*5. QUALIDADE*/
+/**/
+
+.planos-c {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.planos__card {
+    width: 280px;
+    text-align: center;
+    margin: 30px;
+}
+
+.planos-icons {
+    width: 70px;
+}
+
+
+i {
+    font-size:  3rem;
+  
+}
+
+.bi-shield-shaded {
+    color: rgb(62, 161, 62);
+}
+
+.bi-tools {
+    color: red;
+}
+
+.bi-chat {
+    color: orange;
+}
+
+.planos__card__title {
+    margin: 15px;
+}
+
+.planos__card__description {
+    text-align: center;
+    line-height: 30px;
+}
+
+/**/
+/*6. DOMINIO*/
+/**/
+
+#dominio {
+    background-color: #272727;
+    padding: 50px;
+    text-align: center;
+}
+
+.section__title {
+    margin-bottom: 20px;
+}
+
+.dominio-c p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.dominio-c input {
+   margin-bottom: 30px;
+   padding: 10px;
+   width: 250px;
+   outline: none;
+   border-radius: 5px;
+   border: none;
+}
+
+.btn {
+    background-color: rgb(62, 161, 62);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .5s;
+    width: 180px;
+}
+
+.btn:hover {
+    background-color: #272727;
+    color: rgb(62, 161, 62);
+}
+
+/**/
+/*7. CONTATO*/
+/**/
+
+.contato-c {
+    text-align: center;
+    padding: 50px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contato-c h2 {
+    color: black;   
+}
+
+.contato-c p {
+    color: #867777;
+    margin-bottom: 30px;
+}
+
+.contato-input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #867777;
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 350px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px 0 0 10px;
+}
+
+/**/
+/*8. FOOTER*/
+/**/
+
+.footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer p {
+   color: #867777;
+}
+
+.footer a {
+    color: rgb(62, 161, 62);
+    font-weight: bold;
+    transition: .5s;
+}
+
+.footer a:hover {
+    color: #272727;
+}
+
+/**/
+/*9. Media Query*/
+/**/
+
+@media (max-width: 572px) {
+    .plano__card {
+        margin: 40px;
+    }
+}
+
+@media (max-width: 417px) {
+    .header-c {
+        justify-content: center;
+    }
+
+    .nav__itens {
+        font-size: .5rem;
+    }
+}
+
+@media (max-width: 366px) {
+    .plano__card {
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 362px) {
+    .contato-c input {
+        width: 200px;
+    }
+
+    .contato-c textarea {
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
