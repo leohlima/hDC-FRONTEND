@@ -131,8 +131,9 @@ h2 {
 #planos {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
-    justify-content: center;
+    margin: 30px;
+    margin-left: -35px;
+    justify-content:space-evenly;
 }
 
 .titulo-plano .section__title {
@@ -147,7 +148,8 @@ h2 {
 
 .plano__card {
     width: 200px;
-    margin: 45px;
+    margin: 30px;
+
 }
 
 .box-circle {
